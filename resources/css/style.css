@@ -22,3 +22,18 @@ html {
 .header .logo {
   height: 3.5rem;
 }
+
+.section1 {
+  display: flex;
+  flex-flow: row wrap;
+  height: 35rem;
+  border: 1px solid red;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.container img {
+  max-height: 30.5rem;
+  max-width: 41rem;
+}
