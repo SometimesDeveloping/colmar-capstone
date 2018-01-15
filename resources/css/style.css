@@ -37,3 +37,26 @@ html {
   max-height: 30.5rem;
   max-width: 41rem;
 }
+
+.section2 {
+  display: flex;
+  border: 1px solid red;
+}
+
+.section2 .container {
+  /* display: flex; */
+  border: 1px solid red;
+  width: 50%;
+}
+
+.list-box {
+  display: flex;
+  border: 1px solid blue;
+}
+
+.info {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
