@@ -83,3 +83,30 @@ html {
 .programs {
   border: 1px solid blue;
 }
+
+.section4 {
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid red;
+}
+
+.section4 .container {
+  display: flex;
+  border: 1px solid red;
+}
+
+.section4 .info {
+  width: 50%;
+}
+
+.section4 .list-container {
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid blue;
+}
+
+.footer {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
