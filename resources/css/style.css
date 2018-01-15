@@ -59,3 +59,27 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+.section3 {
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid red;
+}
+.section3 .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+.top-row {
+  display: flex;
+}
+
+.bot-row {
+  display: flex;
+}
+
+.programs {
+  border: 1px solid blue;
+}
