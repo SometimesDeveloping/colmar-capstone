@@ -425,6 +425,7 @@ html {
   .section1 {
     display: flex;
     flex-direction: column;
+    border: none;
   }
 
   .section1 img {
