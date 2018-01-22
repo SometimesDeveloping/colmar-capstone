@@ -27,6 +27,10 @@ html {
   height: 3.5rem;
 }
 
+.header .mobile-icon {
+  display: none;
+}
+
 .header p {
   font-family: Helvetica, sans-serif;
   font-size: 2rem;
@@ -45,6 +49,7 @@ html {
   transition-timing-function: ease;
   color: rgb(255, 255, 255);
 }
+
 .header .school-name {
   color: rgba(49, 57, 51, 0.8);
   font-weight: bold;
@@ -67,13 +72,13 @@ html {
    height: auto;
    padding: 2rem 1.5rem;
  }
+
  .section1 .motto {
    font-size: 3.5rem;
    font-family: Helvetica, sans-serif;
    font-weight: bold;
    color: rgba(193, 134, 56, 0.9);
    margin: 2rem auto;
-
  }
 
  .section1 p {
@@ -142,6 +147,10 @@ html {
    padding: 3rem 1.5rem;
  }
 
+ .container-right .mobile-img {
+   display: none;
+ }
+
  .container-right img {
    width: 35%;
    height: auto;
@@ -169,6 +178,7 @@ html {
   animation-timing-function: ease;
   animation-iteration-count: infinite;
  }
+
  .list-box .title {
    font-size: 1.8rem;
    font-family: Helvetica, sans-serif;
@@ -220,6 +230,7 @@ html {
    padding: 1rem 1rem 1.5rem 1rem;
    text-align: center;
  }
+
 .section3 .title {
   font-size: 1.5rem;
   font-family: Helvetica, sans-serif;
@@ -248,10 +259,12 @@ html {
 .section3 .programs.middle {
   padding: 0 2rem;
 }
+
 .section3 img {
   width: 100%;
   height: auto;
 }
+
 .section3 p {
   font-size: 1.2rem;
   font-family: Helvetica, sans-serif;
@@ -269,6 +282,7 @@ html {
   color: rgba(0, 0, 0, 0.7);
   font-size: 1.4rem;
 }
+
 .section3 .classes {
   font-size: 1rem;
   font-family: Helvetica, sans-serif;
@@ -329,6 +343,7 @@ html {
   color: rgba(0, 0, 0, 0.9);
   padding: 1rem 0;
 }
+
 .section4 video {
   max-width: 100%;
 }
@@ -337,12 +352,14 @@ html {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
 }
+
 .section4 .list-container {
   display: flex;
   flex-direction: column;
   width: 40%;
   padding: 0.8rem 1.5rem;
 }
+
 .list-container img {
   width: 35%;
   height: auto;
@@ -367,3 +384,46 @@ html {
   color: rgba(0, 0, 0, 0.6);
   padding-left: 0.5rem;
 }
+
+/* Media-Section */
+
+@media only screen and (max-width: 480px) {
+  .header .logo,
+  .header .container,
+  .container-left,
+  .container-right img {display: none;}
+/* Universal Style */
+  html {font-size: 12px;}
+
+/* Media Section 1 of 4 */
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section1 img {
+    width: 100%;
+  }
+
+/* Media Section 2 of 4 */
+  .container-right {
+    width: 100%;
+    padding: 0 0;
+  }
+
+  .container-right .mobile-img {
+    display: block;
+    width: 100%;
+  }
+
+  .list-box {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .list-box p {
+    font-size: 1.6rem;
+  }
+
+  }
