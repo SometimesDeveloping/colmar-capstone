@@ -3,6 +3,15 @@ html {
   width: 100%;
   height: auto;
 }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
 /* Header section */
 .header {
   display: flex;
@@ -31,14 +40,14 @@ html {
 }
 
 .header p {
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
   color: rgba(176, 175, 167, 0.8);
 }
 
 .header a {
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 1.2rem;
   padding: 0 .7rem;
   transition: color .5s;
@@ -74,14 +83,14 @@ html {
 
  .section1 .motto {
    font-size: 3.5rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    font-weight: bold;
    color: rgba(193, 134, 56, 0.9);
    margin: 2rem auto;
  }
 
  .section1 p {
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    font-size: 2rem;
    font-weight: bold;
    margin: 2rem auto;
@@ -119,7 +128,7 @@ html {
 
  .container-left .motto {
    font-size: 2.5rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    font-weight: bold;
    color: rgba(193, 134, 56, 0.9);
    padding-top: 2rem;
@@ -127,14 +136,14 @@ html {
 
  .container-left p {
    font-size: 1.5rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    color: rgba(0, 0, 0, 0.9);
    padding-top: 1.5rem;
  }
 
  .container-left .cite {
    font-size: 1.2rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    color: rgba(0, 0, 0, 0.8);
  }
 
@@ -180,7 +189,7 @@ html {
 
  .list-box .title {
    font-size: 1.8rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    font-weight: bold;
    color: rgba(0, 0, 0, 0.9);
    margin: 0.5rem 1.5rem;
@@ -188,7 +197,7 @@ html {
 
  .list-box p {
    font-size: 1.2rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    color: rgb(255, 255, 255);
    padding: 0.3rem 0;
    margin: 0.5rem 1.5rem;
@@ -196,7 +205,7 @@ html {
 
  .section2 .list-box a {
    font-size: 0.9rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    border-top: 2px solid black;
    border-bottom: 2px solid black;
    transition: color .5s;
@@ -218,7 +227,7 @@ html {
 
  .section3 .motto {
    font-size: 3.5rem;
-   font-family: Helvetica, sans-serif;
+   font-family: Raleway, sans-serif;
    font-weight: bold;
    color: rgb(255, 255, 255);
    padding: 2rem 0;
@@ -232,7 +241,7 @@ html {
 
 .section3 .title {
   font-size: 1.5rem;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   color: rgba(193, 134, 56, 0.9);
 }
@@ -266,7 +275,7 @@ html {
 
 .section3 p {
   font-size: 1.2rem;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   padding: 0.25rem 0;
   height: 2rem;
 }
@@ -284,7 +293,7 @@ html {
 
 .section3 .classes {
   font-size: 1rem;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -315,7 +324,7 @@ html {
 }
 .section4 .motto {
   font-size: 3.5rem;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   color: rgba(193, 134, 56, 0.9);
   padding: 2rem 2rem;
@@ -331,14 +340,14 @@ html {
 
 .section4 .video-info .title {
   font-size: 1.7rem;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   color: rgba(193, 134, 56, 0.9);
 }
 
 .section4 .video-info p {
   font-size: 1.2rem;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   color: rgba(0, 0, 0, 0.9);
   padding: 1rem 0;
 }
@@ -372,13 +381,13 @@ html {
 }
 
 .footer p {
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
 .footer a {
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.6);
   padding-left: 0.5rem;
